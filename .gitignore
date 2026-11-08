@@ -1,0 +1,16 @@
+# Never commit the LSDj ROM: its license prohibits redistribution.
+*.gb
+*.gbc
+*.sav
+
+# Songs and renders
+*.lsdprj
+*.lsdsng
+*.wav
+samples/
+
+# Downloaded / generated
+bin/
+LSDj Player.app/
+
+.DS_Store
