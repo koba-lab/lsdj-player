@@ -9,8 +9,8 @@
 *.wav
 samples/
 
-# Downloaded / generated
-bin/
-LSDj Player.app/
+# Build output
+node_modules/
+dist/
 
 .DS_Store

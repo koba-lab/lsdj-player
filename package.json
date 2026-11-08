@@ -1,0 +1,33 @@
+{
+  "name": "lsdj-player",
+  "productName": "LSDj Player",
+  "version": "0.1.0",
+  "description": "Double-click LSDj .lsdprj / .lsdsng files to render them with LSDj and play them",
+  "license": "MIT",
+  "author": "Wataru",
+  "main": "src/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test test/*.test.js",
+    "dist": "electron-builder --mac dir"
+  },
+  "devDependencies": {
+    "electron": "^45.2.3",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.kobalab.lsdj-player",
+    "productName": "LSDj Player",
+    "files": ["src/**/*", "package.json", "LICENSE"],
+    "mac": {
+      "category": "public.app-category.music",
+      "identity": "-",
+      "target": "dir"
+    },
+    "fileAssociations": [
+      { "ext": "lsdprj", "name": "LSDj Project", "role": "Viewer", "rank": "Owner" },
+      { "ext": "lsdsng", "name": "LSDj Song", "role": "Viewer", "rank": "Owner" }
+    ]
+  }
+}
