@@ -17,7 +17,7 @@
     "electron-builder": "^26.0.0"
   },
   "build": {
-    "appId": "com.kobalab.lsdj-player",
+    "appId": "io.github.koba-lab.lsdj-player",
     "productName": "LSDj Player",
     "files": ["src/**/*", "package.json", "LICENSE"],
     "mac": {

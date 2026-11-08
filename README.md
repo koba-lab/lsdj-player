@@ -37,7 +37,7 @@ Data is kept in `~/Library/Application Support/LSDj Player/`:
 ## Build
 
 ```sh
-git clone <this repository> lsdj-player
+git clone https://github.com/koba-lab/lsdj-player.git
 cd lsdj-player
 npm install
 npm run dist
@@ -112,7 +112,7 @@ This project is not affiliated with LSDj or RetroPlug.
 ### ビルド
 
 ```sh
-git clone <このリポジトリ> lsdj-player
+git clone https://github.com/koba-lab/lsdj-player.git
 cd lsdj-player
 npm install
 npm run dist
