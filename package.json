@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Double-click LSDj .lsdprj / .lsdsng files to render them with LSDj and play them",
   "license": "MIT",
-  "author": "Wataru",
+  "author": "koba-lab",
   "main": "src/main.js",
   "private": true,
   "scripts": {
